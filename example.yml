@@ -1,0 +1,33 @@
+gibo:
+  inherit: [git, sh]
+  git:
+    url: "https://github.com/simonwhitaker/gibo.git"
+    bin: gibo
+  update:
+    sh: gibo -u
+
+pyenv:
+  inherit: [git]
+  git:
+    url: "foo"
+    bin: pyenv
+
+harvey:
+  inherit: [pip]
+  pip:
+    name: harvey
+
+cargo_extras:
+  inherit: [cargo]
+  cargo:
+    name: cargo-extras
+
+homesick:
+  inherit: [gem]
+  gem:
+    name: homesick
+
+meteor:
+  inherit: [npm]
+  npm:
+    name: meteor
