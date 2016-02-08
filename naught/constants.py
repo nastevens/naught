@@ -5,6 +5,10 @@
 # Display
 TABSIZE = 4
 
+# Paths
+CONFIG_DIR  = '~/.naught'
+CONFIG_FILE = 'naught.yml'
+
 # Colors
 COLOR_DEBUG = 'dark gray'
 COLOR_INFO  = 'normal'
